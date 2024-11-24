@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mo 1
+  - layer1
   - {t: '`', s: '~'}
   layer1:
   - {t: '`', s: '~'}
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
