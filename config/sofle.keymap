@@ -57,8 +57,8 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &trans          &trans           &trans           &mkp MB4           &mmv MOVE_DOWN   &kp END          &kp PG_UP        &kp UP      &kp PG_DN  &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp HOME         &kp LEFT         &kp DOWN    &kp RIGHT  &kp LBKT          &kp RBKT
+&trans      &kp GRAVE        &trans          &trans           &trans           &mkp MB4           &mmv MOVE_DOWN   &kp END          &kp PG_UP        &kp UP      &kp PG_DN  &kp UNDER         &kp PLUS
+&trans      &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp HOME         &kp LEFT         &kp DOWN    &kp RIGHT  &kp LBRC          &kp RBRC
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2       &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
@@ -72,8 +72,8 @@
 &kp TILDE       &kp F1        &kp F2          &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9    &kp F10      &trans
 &trans          &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp N7  &kp N8      &kp N9    &kp MINUS    &kp EQUAL
 &trans          &out OUT_USB  &mkp LCLK       &mkp MCLK     &mkp RCLK     &trans          &mmv MOVE_LEFT   &trans  &kp N4  &kp N5      &kp N6    &kp LBKT     &kp RBKT
-&bootloader     &trans        &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp N1  &kp N2      &kp N3    &trans       &bootloader
-&trans          &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans    &trans
+&trans          &trans        &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp N1  &kp N2      &kp N3    &trans       &trans
+&trans          &bootloader   &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans    &bootloader
             >;
 
             sensor-bindings = <&scroll_encoder>;
