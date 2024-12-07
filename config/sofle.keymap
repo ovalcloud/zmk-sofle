@@ -70,8 +70,8 @@
         layer_2 {
             bindings = <
 &kp TILDE       &kp F1        &kp F2          &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9    &kp F10      &trans
-&trans          &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp N7  &kp N8      &kp N9    &kp MINUS    &kp BSLH
-&trans          &out OUT_USB  &mkp LCLK       &mkp MCLK     &mkp RCLK     &trans          &mmv MOVE_LEFT   &trans  &kp N4  &kp N5      &kp N6    &kp LBKT     &kp RBKT
+&trans          &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &kp N7  &kp N8      &kp N9    &kp LBKT    &kp RBKT
+&trans          &out OUT_USB  &mkp LCLK       &mkp MCLK     &mkp RCLK     &trans          &mmv MOVE_LEFT   &trans  &kp N4  &kp N5      &kp N6    &kp MINUS     &kp BSLH
 &trans          &trans        &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp N1  &kp N2      &kp N3    &trans       &trans
 &trans          &bootloader   &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans    &bootloader
             >;
