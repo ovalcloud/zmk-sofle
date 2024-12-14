@@ -170,9 +170,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
