@@ -70,9 +70,9 @@
         layer_2 {
             bindings = < 
 &kp F12             &kp F1            &kp F2              &kp F3        &kp F4            &kp F5          &mmv MOVE_UP     &kp F6       &kp F7               &kp F8             &kp F9        &kp F10              &kp F11
-&trans              &kp PG_UP         &kp PG_DN           &kp PLUS      &kp MINUS         &trans          &mmv MOVE_DOWN   &kp END      &kp PG_UP            &kp UP             &kp PG_DN     &kp LBKT             &kp RBKT
-&trans              &kp EQUAL         &kp LPAR            &kp ASTRK     &kp AMPS          &kp ENTER       &mmv MOVE_LEFT   &kp HOME     &kp LEFT             &kp DOWN           &kp RIGHT     &kp RIGHT_SHIFT      &kp BSLH
-&kp LSHFT           &kp LSHFT         &kp LCTRL           &kp COMMA     &kp BACKSPACE     &kp DELETE          &mmv MOVE_RIGHT  &trans       &kp N1               &kp N2             &kp N3        &trans               &trans
+&kp MINUS           &kp LC(Z)         &kp LPAR            &kp COMMA     &kp PLUS          &kp ASTRK       &mmv MOVE_DOWN   &kp END      &kp PG_UP            &kp UP             &kp PG_DN     &kp LBKT             &kp RBKT
+&kp BACKSPACE       &kp LC(A)         &kp LC(X)           &kp LC(C)     &kp Enter         &kp LC(V)       &mmv MOVE_LEFT   &kp HOME     &kp LEFT             &kp DOWN           &kp RIGHT     &kp RIGHT_SHIFT      &kp BSLH
+&kp LSHFT           &kp LSHFT         &kp LCTRL           &kp LC(D)     &kp DELETE        &kp AMPS        &mmv MOVE_RIGHT  &trans       &kp N1               &kp N2             &kp N3        &trans               &trans
 &trans              &bootloader       &trans              &trans        &trans            &trans          &mkp LCLK        &trans       &kp RCTRL            &kp RIGHT_ALT      &trans        &bootloader
             >;
 
