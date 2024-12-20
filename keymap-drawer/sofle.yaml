@@ -161,7 +161,7 @@ layers:
   - Ctl+A
   - Ctl+X
   - Ctl+C
-  - Enter
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+V
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
