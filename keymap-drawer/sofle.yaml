@@ -119,7 +119,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-option$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -129,7 +129,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   layer2:
   - F12
   - F1
@@ -144,7 +144,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '-', s: _}
+  - Ctl+Y
   - Ctl+Z
   - (
   - {t: ',', s: <}
@@ -183,8 +183,8 @@ layers:
   - {t: '3', s: '#'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - {t: '-', s: _}
+  - '&GRAVE'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -194,4 +194,4 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
