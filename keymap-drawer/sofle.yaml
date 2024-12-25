@@ -157,8 +157,8 @@ layers:
   - PG DN
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - Ctl+A
+  - kp LC(A)
+  - '&BACKSPACE'
   - Ctl+X
   - Ctl+C
   - {t: '$$mdi:keyboard-return$$', type: enter}
