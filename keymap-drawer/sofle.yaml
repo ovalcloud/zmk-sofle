@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - $$mdi:progress-download$$
+  - $$mdi:bluetooth-off$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:apple-keyboard-option$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:mouse-left-click-outline$$
