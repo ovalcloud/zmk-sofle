@@ -181,7 +181,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - '&BSLH'
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
