@@ -51,7 +51,7 @@
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp N1           &kp N1           &kp N2      &kp N3     &kp F12       &trans
 &kp C_MUTE  &bootloader      &bt BT_CLR      &bt BT_SEL 2     &bt BT_SEL 0     &bt BT_SEL 1       &mkp LCLK        &trans           &trans           &trans      &trans     &bootloader
             >;
-            display-name = "Right - Number";
+            display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -63,7 +63,6 @@
 &kp LA(EQUAL)       &kp DELETE        &kp LC(X)    &kp COMMA     &kp BACKSPACE      &kp AMPS       &mmv MOVE_RIGHT  &tran        &kp TAB      &kp N2             &kp N3         &trans         &trans
 &kp C_MUTE          &trans            &trans       &trans        &trans             &trans         &mkp LCLK        &trans       &kp SPACE    &kp RIGHT_ALT      &trans         &trans
             >;
-            display-name = "Left - Excel";
             sensor-bindings = <&scroll_encoder>;
         };
     };
