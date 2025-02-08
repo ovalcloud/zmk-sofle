@@ -58,14 +58,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Left - Excel
+  - Left
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Right - Number Row
+  - Right
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - {t: '`', s: '~'}
-  Right - Number Row:
+  Right:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
-  Left - Excel:
+  Left:
   - $$mdi:backspace-reverse-outline$$
   - F1
   - F2
@@ -148,15 +148,15 @@ layers:
   - Ctl+Z
   - (
   - Ctl+D
-  - {t: '=', s: +}
+  - +
   - '"'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - +
-  - {t: \, s: '|'}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   - Ctl+A
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -181,7 +181,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&BSLH'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
