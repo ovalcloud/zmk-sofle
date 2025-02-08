@@ -51,7 +51,7 @@
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp N1           &kp N1           &kp N2      &kp N3     &kp F12       &trans
 &kp C_MUTE  &bootloader      &bt BT_CLR      &bt BT_SEL 2     &bt BT_SEL 0     &bt BT_SEL 1       &mkp LCLK        &trans           &trans           &trans      &trans     &bootloader
             >;
-            display-name = "layer1";
+            display-name = "Right - Number Row";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -60,9 +60,10 @@
 &kp DELETE          &kp F1            &kp F2       &kp F3        &kp F4             &kp F5         &mmv MOVE_UP     &kp F6       &kp F7       &kp F8             &kp F9         &kp F10        &kp F11
 &kp LC(Y)           &kp LC(Z)         &kp LPAR     &kp LC(D)     &kp EQUAL          &kp DQT        &mmv MOVE_DOWN   &kp END      &kp PG_UP    &kp UP             &kp PG_DN      &kp PLUS       &kp BSLH
 &kp LC(A)           &kp LSHFT         &kp LCTRL    &kp LC(C)     &kp ENTER          &kp LC(V)      &mmv MOVE_LEFT   &kp HOME     &kp LEFT     &kp DOWN           &kp RIGHT      &kp LBKT       &kp RBKT
-&kp LA(EQUAL)       &kp DELETE        &kp LC(X)    &kp COMMA     &kp BACKSPACE      &kp AMPS       &mmv MOVE_RIGHT  &tran        &kp TAB      &kp N2             &kp N3         &trans         &trans
+&kp LA(EQUAL)       &kp DELETE        &kp LC(X)    &kp COMMA     &kp BACKSPACE      &kp AMPS       &mmv MOVE_RIGHT  &trans        &kp TAB      &kp N2             &kp N3         &trans         &trans
 &kp C_MUTE          &trans            &trans       &trans        &trans             &trans         &mkp LCLK        &trans       &kp SPACE    &kp RIGHT_ALT      &trans         &trans
             >;
+            display-name = "Left - Excel";
             sensor-bindings = <&scroll_encoder>;
         };
     };
