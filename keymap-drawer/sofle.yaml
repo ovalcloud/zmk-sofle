@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
@@ -63,15 +63,15 @@ layers:
   - Right
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: '`', s: '~'}
   Right:
   - {t: '`', s: '~'}
   - F1
   - $$mdi:bluetooth-off$$
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
@@ -131,10 +131,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   Left:
-  - $$mdi:apple-keyboard-option$$
-  - F1
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - F2
-  - F3
+  - $$mdi:apple-keyboard-option$$
   - F4
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -148,13 +148,13 @@ layers:
   - Ctl+Z
   - (
   - Ctl+D
-  - +
-  - '"'
+  - $$mdi:keyboard-space$$
+  - {t: '=', s: +}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
-  - PG UP
+  - Ctl+PG UP
   - $$mdi:arrow-up-bold$$
-  - PG DN
+  - Ctl+PG DN
   - {t: '=', s: +}
   - {t: '-', s: _}
   - Ctl+A
