@@ -136,7 +136,7 @@ layers:
   - F2
   - $$mdi:apple-keyboard-option$$
   - F4
-  - '"'
+  - )
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
@@ -148,8 +148,8 @@ layers:
   - Ctl+Z
   - (
   - Ctl+D
-  - $$mdi:keyboard-space$$
-  - {t: '=', s: +}
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
   - Ctl+PG UP
@@ -157,12 +157,12 @@ layers:
   - Ctl+PG DN
   - {t: '=', s: +}
   - {t: '-', s: _}
-  - Ctl+A
-  - Ctl+C
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Ctl+V
+  - {t: '=', s: +}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
@@ -171,7 +171,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: Alt+=, s: Alt++}
-  - $$mdi:backspace-reverse-outline$$
+  - Ctl+A
   - Ctl+X
   - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+=, s: Alt++}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
