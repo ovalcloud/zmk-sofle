@@ -134,7 +134,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
-  - F3
+  - '&'
   - F4
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -147,9 +147,9 @@ layers:
   - Ctl+Y
   - Ctl+Z
   - $$mdi:keyboard-space$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
   - {t: ',', s: <}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
   - Ctl+PG UP
