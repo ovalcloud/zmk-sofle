@@ -159,10 +159,10 @@ layers:
   - {t: '-', s: _}
   - Ctl+A
   - $$mdi:backspace-reverse-outline$$
-  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-option$$
   - Ctl+C
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+V
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
@@ -174,8 +174,8 @@ layers:
   - )
   - Ctl+X
   - Ctl+D
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
