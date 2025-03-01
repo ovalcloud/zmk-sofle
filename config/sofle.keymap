@@ -57,8 +57,8 @@
 
         layer2 {
             bindings = < 
-&kp ESC             &kp F1            &kp F2           &kp F3                &kp F4             &kp F5         &mmv MOVE_UP         &kp F6       &kp F7           &kp F8             &kp F9         &kp F10        &kp F11
-&kp LC(Y)           &kp LC(Z)         &kp SPACE        &kp MINUS             &kp EQUAL          &kp COMMA      &mmv MOVE_DOWN       &kp END      &kp LC(PG_UP)    &kp UP             &kp LC(PG_DN)  &kp EQUAL      &kp MINUS
+&kp ESC             &kp F1            &kp F2           &kp AMPS              &kp F4             &kp F5         &mmv MOVE_UP         &kp F6       &kp F7           &kp F8             &kp F9         &kp F10        &kp F11
+&kp LC(Y)           &kp LC(Z)         &kp SPACE        &kp COMMA             &kp EQUAL          &kp MINUS      &mmv MOVE_DOWN       &kp END      &kp LC(PG_UP)    &kp UP             &kp LC(PG_DN)  &kp EQUAL      &kp MINUS
 &kp LC(A)           &kp LEFT_ALT      &kp DELETE       &mt LSHFT LC(C)       &mt LCTRL LC(V)    &kp ENTER      &mmv MOVE_LEFT       &kp HOME     &kp LEFT         &kp DOWN           &kp RIGHT      &kp LBKT       &kp RBKT
 &kp LA(EQUAL)       &kp RPAR          &kp LC(X)        &kp LC(D)             &kp TAB            &kp BACKSPACE  &mmv MOVE_RIGHT      &trans       &kp TAB          &kp N2             &kp N3         &kp BSLH       &trans
 &kp C_MUTE          &kp LEFT_ALT      &kp LEFT_GUI     &trans                &kp LPAR           &trans         &mkp LCLK            &trans       &kp SPACE        &kp RIGHT_ALT      &trans         &trans
