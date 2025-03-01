@@ -144,8 +144,8 @@ layers:
   - F9
   - F10
   - F11
-  - Ctl+Y
-  - Ctl+Z
+  - (
+  - )
   - $$mdi:keyboard-space$$
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: '-', s: _}
@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '=', s: +}
   - {t: Ctl+C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+V, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - Ctl+V
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
@@ -170,8 +170,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: Alt+=, s: Alt++}
-  - )
+  - Ctl+Y
+  - Ctl+Z
   - Ctl+X
   - Ctl+D
   - $$mdi:keyboard-tab$$
