@@ -146,9 +146,9 @@ layers:
   - F11
   - (
   - )
-  - $$mdi:keyboard-space$$
-  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: '-', s: _}
+  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
+  - {t: '=', s: +}
   - '&'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
@@ -158,8 +158,8 @@ layers:
   - {t: '=', s: +}
   - {t: '-', s: _}
   - Ctl+A
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '=', s: +}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Ctl+C, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - Ctl+V
