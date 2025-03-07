@@ -54,14 +54,14 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - Left
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Right
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Enter
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '`', s: '~'}
@@ -161,7 +161,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: Ctl+C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Enter, h: '$$mdi:apple-keyboard-control$$'}
   - Ctl+V
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
