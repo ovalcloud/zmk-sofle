@@ -148,7 +148,7 @@ layers:
   - )
   - {t: '-', s: _}
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
-  - {t: '=', s: +}
+  - $$mdi:keyboard-tab$$
   - '&'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - END
@@ -174,7 +174,7 @@ layers:
   - Ctl+Z
   - Ctl+X
   - Ctl+D
-  - $$mdi:keyboard-tab$$
+  - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
